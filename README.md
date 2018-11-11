@@ -18,7 +18,7 @@ Until the code is submitted to npm, you can make this run manually :
 
 Add the Bluetooth address of each lightbulb required as a separate accessory in the Homebridge `config.json` file:
 
-```
+```json
   "accessories": [
     {
       "accessory": "BeeWiBulb",
@@ -28,6 +28,19 @@ Add the Bluetooth address of each lightbulb required as a separate accessory in 
   ]
 
 ```
+
+You can find the address by checking the log output of homebridge :
+
+```
+Homebridge is running on port 51826.
+[BeeWi light] Starting BLE scan
+[BeeWi light] Discovered: 5992f6c8406b
+[BeeWi light] adress not matching
+[BeeWi light] Discovered: c4be84e094d4
+[BeeWi light] adress not matching
+[BeeWi light] Discovered: 5b2d0489329c
+```
+
 
 The code is based on homebridge-superlights : See [Homebridge-superlights](https://github.com//SFrost007/homebridge-superlights/)
 
