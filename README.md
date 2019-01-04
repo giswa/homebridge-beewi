@@ -10,9 +10,9 @@ You will need to have Noble installed to have this plugin running : https://gith
 
 Install using npm : 
 
-'''
+```console
 npm install homebridge-beewi
-'''
+```
 
 ## Configuration
 
