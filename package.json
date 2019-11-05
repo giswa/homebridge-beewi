@@ -2,20 +2,21 @@
   "name": "homebridge-beewi",
   "description": "Homebridge plugin that exposes the BeeWi bluetooth bulb as an accessory",
   "author": "Gislain Wautriche",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "",
   "keywords": [
     "homebridge-plugin",
+    "homekit",
     "bluetooth",
     "bluetooth low energy",
     "ble",
     "beewi"
   ],
   "engines": {
-    "node": ">=4.3.2",
+    "node": ">=8.6.0",
     "homebridge": ">=0.4.6"
   },
   "dependencies": {
-    "noble": ">=1.7.0"
+    "@abandonware/noble": "1.9.2-2"
   }
 }
