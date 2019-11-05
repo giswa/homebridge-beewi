@@ -1,4 +1,4 @@
-var Noble = require('noble');
+var Noble = require('@abandonware/noble');
 var Service, Characteristic;
 
 var SERVICE =  "a8b3fff04834405189d03de95cddd318" ;
