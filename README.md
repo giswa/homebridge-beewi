@@ -1,14 +1,12 @@
 # homebridge-beewi
 
-This is a plugin for [Homebridge](https://github.com/nfarina/homebridge)
+This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) to enable the control of a beewi light bulb over BLE.
 
-It enables the control of a beewi light bulb over BLE using homebridge
-
-You will need NodeJS version 8.6 (or superior) and have Noble installed : https://github.com/noble/noble
+You will need NodeJS version 8.6 (or superior) and have Noble installed : https://www.npmjs.com/package/@abandonware/noble. Check if Noble is working correctly before you start to install this plugin. Noble has a strong system dependencie to bluetooth layer and requires the installation of bluetooth system libraries first.
 
 ## Installation 
 
-Install using npm : 
+Install homebridge-beewi using npm : 
 
 ```console
 npm install homebridge-beewi
@@ -47,6 +45,7 @@ This code is based on homebridge-superlights : See [Homebridge-superlights](http
 
 ## Changelog
 
-0.0.2  Changed dependencie to @abandonware/noble fork. Noble initial github project seems to have stopped. 
+0.0.2  Changed dependencie to @abandonware/noble fork. Noble initial github project seems to have stopped.
+
 0.0.1  Initial version and npm package
 
